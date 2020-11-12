@@ -1,0 +1,19 @@
+docker-compose exec api anchore-cli image vuln  vulnerables/phpldapadmin-remote-dump all > 1.log
+docker-compose exec api anchore-cli image vuln  vulnerables/web-owasp all > 2.log
+docker-compose exec api anchore-cli image vuln  vulnerables/web-dvwa all > 3.log
+docker-compose exec api anchore-cli image vuln  vulnerables/metasploit-vulnerability-emulator all > 4.log
+docker-compose exec api anchore-cli image vuln  vulnerables/web-owasp-railsgoat all > 5.log
+docker-compose exec api anchore-cli image vuln  vulnerables/cve-2017-7494 all > 6.log
+docker-compose exec api anchore-cli image vuln  vulnerables/mail-haraka-2.8.9-rce all > 7.log
+docker-compose exec api anchore-cli image vuln  vulnerables/cve-2014-6271 all > 8.log
+docker-compose exec api anchore-cli image vuln  vulnerables/cve-2014-0160 all > 9.log
+docker-compose exec api anchore-cli image vuln  vulnerables/cve-2016-6515 all > 10.log
+docker-compose exec api anchore-cli image vuln  vulnerables/cve-2016-4977 all > 11.log
+docker-compose exec api anchore-cli image vuln  vulnerables/cve-2016-10033 all > 12.log
+docker-compose exec api anchore-cli image vuln  vulnerables/web-roundcube-1.2.2-rce all > 13.log
+docker-compose exec api anchore-cli image vuln  vulnerables/cve-2016-7434 all > 14.log
+docker-compose exec api anchore-cli image vuln  vulnerables/web-owasp-phpgoat all > 15.log
+docker-compose exec api anchore-cli image vuln  vulnerables/web-owasp-nodegoat all > 16.log
+docker-compose exec api anchore-cli image vuln  vulnerables/web-owasp-mutillidae2 all > 17.log
+docker-compose exec api anchore-cli image vuln  vulnerables/web-bwapp all > 18.log
+
